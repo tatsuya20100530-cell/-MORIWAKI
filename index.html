@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f5f1">
+  <meta name="description" content="3分・5つの質問で、毎日の生活に合うパーマタイプを診断。今回のリメイク版では、3タイプ×3レングス×3パターンの全27スタイルからおすすめをご提案します。">
+  <meta property="og:title" content="私に合うパーマタイプ診断 | MORIWAKI 宮之阪">
+  <meta property="og:description" content="朝ラク。でも、ちゃんと可愛い。5つの質問であなたに合うパーマタイプを診断。長さ別におすすめスタイルも見られます。">
+  <meta property="og:type" content="website">
+  <title>私に合うパーマタイプ診断 | MORIWAKI 宮之阪</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app-shell">
+    <section id="start-screen" class="screen start-screen is-active" aria-labelledby="start-title">
+      <div class="page-no">01</div>
+      <p class="eyebrow">HAIR DIAGNOSTIC SHEET</p>
+      <div class="short-rule" aria-hidden="true"></div>
+
+      <p class="lead">朝ラク。でも、<br>ちゃんと可愛い。</p>
+      <h1 id="start-title">私に合う<br><span>パーマタイプ診断</span></h1>
+
+      <p class="pill-note">3分でできる！5つの質問に答えるだけ</p>
+
+      <ul class="check-list" aria-label="こんな方におすすめ">
+        <li>朝のスタイリングをラクにしたい</li>
+        <li>結んでも可愛い髪にしたい</li>
+        <li>自分にぴったりのパーマを見つけたい</li>
+      </ul>
+
+      <p class="intro-copy">診断結果に合わせて、<br>今回リメイクした27スタイルから、ショート・ミディアム・ロング別におすすめが見られます。</p>
+
+      <button id="start-btn" class="primary-btn" type="button">診断をはじめる</button>
+      <p class="brand">MORIWAKI MIYANOSAKA <span></span></p>
+    </section>
+
+    <section id="quiz-screen" class="screen quiz-screen" aria-live="polite">
+      <div class="quiz-topline">
+        <div id="quiz-page-no" class="page-no">02</div>
+        <p id="progress-label" class="progress-label">Q1 / 5</p>
+      </div>
+
+      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+
+      <div id="question-wrap" class="question-wrap">
+        <p id="question-kicker" class="question-kicker">Q1</p>
+        <h2 id="question-title"></h2>
+        <div id="options" class="options" role="group" aria-label="回答を選択"></div>
+      </div>
+
+      <div class="point-box">
+        <div class="point-icon" aria-hidden="true">✦</div>
+        <div>
+          <strong>POINT</strong>
+          <p id="point-copy">答えは直感でOK。普段の生活に一番近いものを選んでください。</p>
+        </div>
+      </div>
+
+      <button id="back-btn" class="text-btn" type="button">← ひとつ前に戻る</button>
+      <p class="brand">MORIWAKI MIYANOSAKA <span></span></p>
+    </section>
+
+    <section id="result-screen" class="screen result-screen" aria-labelledby="result-heading">
+      <div class="page-no">05</div>
+      <p class="eyebrow">診断結果</p>
+      <h2 id="result-heading">あなたのパーマタイプは…</h2>
+
+      <article id="result-hero" class="result-hero">
+        <p id="result-subline" class="result-subline"></p>
+        <p id="result-en" class="result-en"></p>
+        <h3 id="result-jp"></h3>
+        <p id="result-desc" class="result-desc"></p>
+      </article>
+
+      <section class="styles-section" aria-labelledby="styles-title">
+        <div class="section-heading">
+          <p>YOUR STYLE</p>
+          <h3 id="styles-title">長さを選んで、3つのおすすめを見る</h3>
+          <p id="length-note" class="length-note">同じタイプでも、長さによって似合う見せ方は変わります。</p>
+        </div>
+        <div id="length-tabs" class="length-tabs" role="tablist" aria-label="長さを選択"></div>
+        <p id="length-caption" class="length-caption"></p>
+        <div id="style-grid" class="style-grid"></div>
+      </section>
+
+      <div class="action-grid">
+        <button id="save-btn" class="secondary-btn" type="button">結果を保存</button>
+        <button id="consult-btn" class="secondary-btn" type="button">相談する</button>
+        <button id="share-btn" class="secondary-btn wide-secondary" type="button">結果をシェア</button>
+        <a id="reserve-btn" class="primary-btn reserve-btn" href="https://res.bins.jp/~moriwaki/miyanosaka/" target="_blank" rel="noopener">このタイプで予約する</a>
+      </div>
+
+      <div id="saved-note" class="saved-note" role="status" aria-live="polite"></div>
+
+      <section class="disclaimer">
+        <p class="disclaimer-title">診断結果＝絶対ではありません。</p>
+        <p>髪質・今の長さ・ダメージ履歴、そして毎日の過ごし方によって、あなたに合うパーマは変わります。</p>
+        <p><strong>「私はこのタイプだった」だけでOK。</strong><br>カウンセリングで一緒に、あなたの生活に合うパーマを考えます。</p>
+      </section>
+
+      <div class="next-step">
+        <span>Next Step!</span>
+        <p>保存して、次回のカウンセリングで<br>この診断を見せてくださいね。</p>
+      </div>
+
+      <button id="restart-btn" class="text-btn restart-btn" type="button">もう一度診断する</button>
+      <p class="brand">MORIWAKI MIYANOSAKA <span></span></p>
+    </section>
+  </main>
+
+  <dialog id="consult-dialog" class="consult-dialog">
+    <button id="dialog-close" class="dialog-close" type="button" aria-label="閉じる">×</button>
+    <p class="dialog-kicker">COUNSELING</p>
+    <h2>診断結果をそのまま見せてください。</h2>
+    <p>「私はこのタイプだった」でOKです。髪質・今の長さ・ダメージ履歴・毎日の過ごし方を確認して、最終的なパーマデザインを一緒に決めます。</p>
+    <a class="primary-btn" href="https://res.bins.jp/~moriwaki/miyanosaka/" target="_blank" rel="noopener">予約して相談する</a>
+  </dialog>
+
+  <template id="option-template">
+    <button class="option-card" type="button">
+      <span class="option-letter"></span>
+      <span class="option-copy"><strong></strong><small></small></span>
+      <span class="option-arrow" aria-hidden="true">›</span>
+    </button>
+  </template>
+
+  <template id="style-template">
+    <article class="style-card">
+      <img loading="lazy" decoding="async" alt="">
+      <div class="style-copy">
+        <p class="style-number"></p>
+        <h4></h4>
+        <p class="style-text"></p>
+        <a class="style-reserve" href="https://res.bins.jp/~moriwaki/miyanosaka/" target="_blank" rel="noopener">このスタイルで相談・予約 →</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

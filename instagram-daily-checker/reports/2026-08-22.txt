@@ -1,0 +1,28 @@
+MORIWAKI Instagram 日次チェック
+2026-08-22 15:45:20
+
+取得成功：12 / 20
+
+店舗         スタッフ         Instagram                       投稿数      投稿前日比    フォロワー   フォロワー前日比
+交野店        kuroki       kuro_rina                         -          -        -          - ⚪
+交野店        kurogi       oo_o___co_c                       -          -        -          - ⚪
+宮之阪店       myojin       myojin_moriwaki                 272         基準      528         基準 🟢
+宮之阪店       uga          serika_hair                       -          -        -          - ⚪
+宮之阪店       ueno         by.puiko                          2         基準       11         基準 🟢
+宮之阪店       morimoto     kaz5_129                          -          -        -          - ⚪
+宮之阪店       yamakawa     u.ne.assistant                    -          -        -          - ⚪
+凪店         hatano       kento_hair                       25         基準      102         基準 🟢
+凪店         moritani     mayumi.m                          -          -        -          - ⚪
+凪店         joyama       ayumi__ulf                        -          -        -          - ⚪
+東寝屋川店      yamamoto     kumi.yamamoto_                    0         基準        1         基準 🔴
+東寝屋川店      maesawa      moriwaki34maesawa                 -          -        -          - ⚪
+藤が尾店       moriwaki     mokoko_0227                      42         基準      552         基準 🔴
+藤が尾店       nishiguchi   yudai_nishiguchi                 51         基準      338         基準 🟢
+藤が尾店       masaoka      eri_msok                         42         基準      221         基準 🟢
+藤が尾店       nagashima    n_itta_22                        25         基準       73         基準 🟢
+河内磐船店      taira        ta.i.ra0417_iwafune               1         基準       29         基準 🟢
+河内磐船店      oka          yu_chan1992                       3         基準      311         基準 🟢
+河内磐船店      yamade       iwafune_yamadeayumi               3         基準       70         基準 🟢
+河内磐船店      ogawa        moko_ogawa1124                    8         基準      154         基準 🟢
+
+🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可

@@ -1,0 +1,46 @@
+name: Instagram Daily Check
+
+on:
+  schedule:
+    - cron: '0 22 * * *' # 07:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-daily-check
+  cancel-in-progress: false
+
+jobs:
+  daily-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Instagram checker
+        env:
+          MORIWAKI_INSTAGRAM_PAGE_TOKEN: ${{ secrets.MORIWAKI_INSTAGRAM_PAGE_TOKEN }}
+          MORIWAKI_IG_ID: '17841401126524039'
+          TZ: Asia/Tokyo
+        run: python instagram-daily-checker/check_instagram_actions.py
+
+      - name: Commit updated report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add instagram-daily-checker/data instagram-daily-checker/reports
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m "chore: update Instagram report $(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+            git push
+          fi

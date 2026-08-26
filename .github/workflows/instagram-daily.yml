@@ -2,7 +2,7 @@ name: Instagram Daily Check
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 07:00 JST
+    - cron: '40 21 * * *' # 06:40 JST
   workflow_dispatch:
 
 permissions:

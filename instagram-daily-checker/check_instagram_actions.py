@@ -5,7 +5,7 @@ import os
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -18,9 +18,12 @@ REPORTS.mkdir(exist_ok=True)
 JST = ZoneInfo("Asia/Tokyo")
 NOW = datetime.now(JST)
 TODAY = NOW.strftime("%Y-%m-%d")
+YESTERDAY = (NOW.date() - timedelta(days=1)).isoformat()
 NOW_TEXT = NOW.strftime("%Y-%m-%d %H:%M:%S")
 CURRENT = DATA / f"{TODAY}.csv"
-LATEST = REPORTS / "latest.txt"
+PREVIOUS = DATA / f"{YESTERDAY}.csv"
+LATEST_CSV = DATA / "latest.csv"
+LATEST_REPORT = REPORTS / "latest.txt"
 DAILY_REPORT = REPORTS / f"{TODAY}.txt"
 
 TOKEN = os.environ.get("MORIWAKI_INSTAGRAM_PAGE_TOKEN", "").strip()
@@ -52,20 +55,24 @@ ACCOUNTS = [
     ("河内磐船店", "ogawa", "moko_ogawa1124"),
 ]
 
-
-def previous_csv():
-    files = sorted(p for p in DATA.glob("*.csv") if p.name != CURRENT.name)
-    return files[-1] if files else None
+FIELDS = ["store", "staff", "username", "result", "followers", "posts", "latest", "days", "status", "checked_at"]
 
 
-def load_previous(path):
+def load_csv(path):
     result = {}
-    if not path or not path.exists():
+    if not path.exists():
         return result
     with path.open(encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
             result[row.get("username", "")] = row
     return result
+
+
+def write_csv(path, rows):
+    with path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=FIELDS)
+        w.writeheader()
+        w.writerows(rows)
 
 
 def graph_lookup(username):
@@ -85,7 +92,7 @@ def graph_lookup(username):
 
 
 def parse_timestamp(value):
-    if not value:
+    if not value or value == "-":
         return None
     try:
         return datetime.fromisoformat(value.replace("Z", "+00:00"))
@@ -111,12 +118,12 @@ def status_for(posts, timestamp):
 def delta(new, old):
     try:
         d = int(new) - int(old)
-        return f"+{d}" if d > 0 else str(d)
+        return f"{d:+d}"
     except Exception:
-        return "-"
+        return "算出不可"
 
-prev_path = previous_csv()
-prev = load_previous(prev_path)
+prev = load_csv(PREVIOUS)
+previous_day_available = PREVIOUS.exists()
 rows = []
 
 for store, staff, username in ACCOUNTS:
@@ -134,18 +141,15 @@ for store, staff, username in ACCOUNTS:
     media = bd.get("media") or {}
     media_data = media.get("data") or []
     timestamp = media_data[0].get("timestamp") if media_data else "-"
-    days, state = status_for(posts if isinstance(posts, int) else -1, timestamp if timestamp != "-" else None)
+    days, state = status_for(posts if isinstance(posts, int) else -1, timestamp)
     rows.append({
         "store": store, "staff": staff, "username": username,
         "result": "OK", "followers": followers, "posts": posts,
         "latest": timestamp, "days": days, "status": state, "checked_at": NOW_TEXT,
     })
 
-fields = ["store", "staff", "username", "result", "followers", "posts", "latest", "days", "status", "checked_at"]
-with CURRENT.open("w", encoding="utf-8", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=fields)
-    w.writeheader()
-    w.writerows(rows)
+write_csv(CURRENT, rows)
+write_csv(LATEST_CSV, rows)
 
 success = sum(1 for r in rows if r["result"] == "OK")
 lines = [
@@ -153,27 +157,30 @@ lines = [
     NOW_TEXT,
     "",
     f"取得成功：{success} / 20",
+    f"比較基準：{YESTERDAY}" if previous_day_available else f"比較基準：{YESTERDAY} の保存記録なし",
     "",
-    f"{'店舗':<10} {'スタッフ':<12} {'Instagram':<26} {'投稿数':>8} {'投稿前日比':>10} {'フォロワー':>8} {'フォロワー前日比':>10}",
+    f"{'店舗':<10} {'スタッフ':<12} {'Instagram':<26} {'投稿数':>8} {'投稿前日比':>12} {'フォロワー':>10} {'フォロワー前日比':>14}",
 ]
 
 for r in rows:
-    dpost = "-"
-    dfollow = "-"
-    if r["result"] == "OK":
+    dpost = "算出不可"
+    dfollow = "算出不可"
+    if r["result"] == "OK" and previous_day_available:
         old = prev.get(r["username"])
-        if old:
+        if old and old.get("result") == "OK":
             dpost = delta(r["posts"], old.get("posts"))
             dfollow = delta(r["followers"], old.get("followers"))
-        elif not prev:
-            dpost = "基準"
-            dfollow = "基準"
     lines.append(
-        f"{r['store']:<10} {r['staff']:<12} {r['username']:<26} {str(r['posts']):>8} {dpost:>10} {str(r['followers']):>8} {dfollow:>10} {r['status']}"
+        f"{r['store']:<10} {r['staff']:<12} {r['username']:<26} {str(r['posts']):>8} {dpost:>12} {str(r['followers']):>10} {dfollow:>14} {r['status']}"
     )
 
-lines += ["", "🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可", ""]
+lines += [
+    "",
+    "前日比表記：増加=+N、変動なし=+0、減少=-N。前日または当日の取得不可は算出不可。",
+    "🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可",
+    "",
+]
 text = "\n".join(lines)
-LATEST.write_text(text, encoding="utf-8")
+LATEST_REPORT.write_text(text, encoding="utf-8")
 DAILY_REPORT.write_text(text, encoding="utf-8")
 print(text)

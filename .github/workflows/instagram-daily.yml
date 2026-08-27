@@ -2,7 +2,11 @@ name: Instagram Daily Check
 
 on:
   schedule:
-    - cron: '40 21 * * *' # 06:40 JST
+    # JST 05:50 / 06:20 / 06:40. Multiple runs provide automatic recovery
+    # before the consolidated 07:00 MORIWAKI report.
+    - cron: '50 20 * * *'
+    - cron: '20 21 * * *'
+    - cron: '40 21 * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,11 +19,13 @@ concurrency:
 jobs:
   daily-check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,26 +35,81 @@ jobs:
       - name: Install report dependencies
         run: python -m pip install --disable-pip-version-check openpyxl
 
-      - name: Run Instagram checker
+      - name: Run Instagram checker with automatic retry
+        id: checker
         env:
           MORIWAKI_INSTAGRAM_PAGE_TOKEN: ${{ secrets.MORIWAKI_INSTAGRAM_PAGE_TOKEN }}
           MORIWAKI_IG_ID: '17841401126524039'
           TZ: Asia/Tokyo
-        run: python instagram-daily-checker/check_instagram_actions.py
+        shell: bash
+        run: |
+          set -u
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+          FILE="instagram-daily-checker/data/${TODAY}.csv"
+          MIN_SUCCESS=12
+          ok=0
+
+          for attempt in 1 2 3; do
+            echo "Instagram check attempt ${attempt}/3"
+            if python instagram-daily-checker/check_instagram_actions.py; then
+              if [ -s "$FILE" ]; then
+                SUCCESS_COUNT="$(python - "$FILE" <<'PY'
+import csv, sys
+p=sys.argv[1]
+with open(p, encoding='utf-8', newline='') as f:
+    rows=list(csv.DictReader(f))
+print(sum(1 for r in rows if r.get('result') == 'OK'))
+PY
+)"
+                echo "Successful accounts: ${SUCCESS_COUNT}/20"
+                if [ "$SUCCESS_COUNT" -ge "$MIN_SUCCESS" ]; then
+                  ok=1
+                  break
+                fi
+              fi
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 20))
+            fi
+          done
+
+          if [ "$ok" -ne 1 ]; then
+            echo "Instagram daily check failed quality gate after 3 attempts." >&2
+            exit 1
+          fi
 
       - name: Generate Excel report
         env:
           TZ: Asia/Tokyo
         run: python instagram-daily-checker/create_excel.py
 
-      - name: Commit updated data and reports
+      - name: Write success health status
+        if: success()
+        run: |
+          mkdir -p instagram-daily-checker/status
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+          NOW="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')"
+          printf 'date,result,checked_at,run_id\n%s,success,%s,%s\n' "$TODAY" "$NOW" "${{ github.run_id }}" > instagram-daily-checker/status/latest.csv
+
+      - name: Write failure health status
+        if: failure()
+        run: |
+          mkdir -p instagram-daily-checker/status
+          TODAY="$(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+          NOW="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')"
+          printf 'date,result,checked_at,run_id\n%s,failure,%s,%s\n' "$TODAY" "$NOW" "${{ github.run_id }}" > instagram-daily-checker/status/latest.csv
+
+      - name: Commit updated data, reports and health status
+        if: always()
+        shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add instagram-daily-checker/data instagram-daily-checker/reports
+          git add instagram-daily-checker/data instagram-daily-checker/reports instagram-daily-checker/status
           if git diff --cached --quiet; then
             echo 'No changes to commit.'
           else
-            git commit -m "chore: update Instagram report $(TZ=Asia/Tokyo date '+%Y-%m-%d')"
-            git push
+            git commit -m "chore: update Instagram report $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi

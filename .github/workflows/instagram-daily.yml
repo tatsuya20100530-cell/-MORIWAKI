@@ -53,14 +53,7 @@ jobs:
             echo "Instagram check attempt ${attempt}/3"
             if python instagram-daily-checker/check_instagram_actions.py; then
               if [ -s "$FILE" ]; then
-                SUCCESS_COUNT="$(python - "$FILE" <<'PY'
-import csv, sys
-p=sys.argv[1]
-with open(p, encoding='utf-8', newline='') as f:
-    rows=list(csv.DictReader(f))
-print(sum(1 for r in rows if r.get('result') == 'OK'))
-PY
-)"
+                SUCCESS_COUNT="$(python -c 'import csv,sys; print(sum(1 for r in csv.DictReader(open(sys.argv[1], encoding="utf-8")) if r.get("result") == "OK"))' "$FILE")"
                 echo "Successful accounts: ${SUCCESS_COUNT}/20"
                 if [ "$SUCCESS_COUNT" -ge "$MIN_SUCCESS" ]; then
                   ok=1

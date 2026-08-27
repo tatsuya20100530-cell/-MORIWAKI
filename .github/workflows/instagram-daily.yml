@@ -1,10 +1,6 @@
 name: Instagram Daily Check
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/instagram-daily.yml'
   schedule:
     # JST 05:50 / 06:20 / 06:40. Multiple runs provide automatic recovery
     # before the consolidated 07:00 MORIWAKI report.

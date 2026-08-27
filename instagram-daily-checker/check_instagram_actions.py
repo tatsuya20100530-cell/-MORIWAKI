@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
@@ -75,20 +76,29 @@ def write_csv(path, rows):
         w.writerows(rows)
 
 
-def graph_lookup(username):
+def graph_lookup(username, attempts=3):
     fields = f"business_discovery.username({username}){{username,followers_count,media_count,media.limit(1){{timestamp}}}}"
     params = urllib.parse.urlencode({"fields": fields, "access_token": TOKEN})
     url = f"https://graph.facebook.com/v26.0/{IG_ID}?{params}"
-    req = urllib.request.Request(url, headers={"User-Agent": "MORIWAKI-Instagram-Daily/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            payload = json.loads(r.read().decode("utf-8"))
-    except Exception as e:
-        return None, str(e)
-    bd = payload.get("business_discovery")
-    if not bd:
-        return None, json.dumps(payload, ensure_ascii=False)
-    return bd, None
+    req = urllib.request.Request(url, headers={"User-Agent": "MORIWAKI-Instagram-Daily/1.1"})
+    last_error = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                payload = json.loads(r.read().decode("utf-8"))
+            bd = payload.get("business_discovery")
+            if bd:
+                return bd, None
+            last_error = json.dumps(payload, ensure_ascii=False)
+        except Exception as e:
+            last_error = str(e)
+
+        if attempt < attempts:
+            print(f"WARN: {username} API attempt {attempt}/{attempts} failed; retrying...", file=sys.stderr)
+            time.sleep(attempt * 3)
+
+    return None, last_error
 
 
 def parse_timestamp(value):
@@ -122,6 +132,7 @@ def delta(new, old):
     except Exception:
         return "算出不可"
 
+
 prev = load_csv(PREVIOUS)
 previous_day_available = PREVIOUS.exists()
 rows = []
@@ -129,6 +140,8 @@ rows = []
 for store, staff, username in ACCOUNTS:
     bd, err = graph_lookup(username)
     if bd is None:
+        if err:
+            print(f"WARN: {username} unavailable after retries: {err}", file=sys.stderr)
         rows.append({
             "store": store, "staff": staff, "username": username,
             "result": "取得不可", "followers": "-", "posts": "-",

@@ -1,5 +1,5 @@
 MORIWAKI Instagram 日次チェック
-2026-08-31 00:56:39
+2026-08-31 05:51:33
 
 取得成功：12 / 20
 比較基準：2026-08-30
@@ -24,7 +24,7 @@ MORIWAKI Instagram 日次チェック
 河内磐船店      taira        ta.i.ra0417_iwafune               6           +2         43             +5 🟢
 河内磐船店      oka          yu_chan1992                       -         算出不可          -           算出不可 ⚪
 河内磐船店      yamade       iwafune_yamadeayumi               6           +0         76             +0 🟡
-河内磐船店      ogawa        moko_ogawa1124                   10           +0        161             +2 🟢
+河内磐船店      ogawa        moko_ogawa1124                   10           +0        162             +3 🟢
 
 前日比表記：増加=+N、変動なし=+0、減少=-N。前日または当日の取得不可は算出不可。
 🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可

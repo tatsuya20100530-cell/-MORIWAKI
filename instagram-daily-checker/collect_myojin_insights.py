@@ -42,10 +42,6 @@ METRICS = (
     "total_interactions",
     "saved",
     "shares",
-    "likes",
-    "comments",
-    "follows",
-    "profile_visits",
 )
 
 
@@ -55,7 +51,7 @@ def graph_get(path, params):
     url = f"https://graph.facebook.com/{API_VERSION}/{path}?{urllib.parse.urlencode(query)}"
     req = urllib.request.Request(url, headers={"User-Agent": "MORIWAKI-Insights/1.0"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=12) as response:
             return json.loads(response.read().decode("utf-8")), None
     except urllib.error.HTTPError as exc:
         return None, f"HTTP {exc.code}"
@@ -82,7 +78,7 @@ def metric_value(payload):
 def collect_media():
     payload, error = graph_get(
         f"{IG_ID}/media",
-        {"fields": MEDIA_FIELDS, "limit": 20},
+        {"fields": MEDIA_FIELDS, "limit": 10},
     )
     if error or not payload:
         return [], error or "empty_response"
@@ -153,8 +149,7 @@ def write_outputs(media_rows, media_error):
     columns = [
         "date", "timestamp", "media_type", "media_product_type", "permalink",
         "caption", "views", "reach", "total_interactions", "saved", "shares",
-        "likes", "comments", "follows", "profile_visits", "like_count",
-        "comments_count", "unavailable_metrics",
+        "like_count", "comments_count", "unavailable_metrics",
     ]
     flat_rows = []
     for row in media_rows:

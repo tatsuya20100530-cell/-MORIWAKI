@@ -71,6 +71,15 @@ jobs:
             exit 1
           fi
 
+      - name: Collect owned-account post insights
+        continue-on-error: true
+        env:
+          MORIWAKI_INSTAGRAM_PAGE_TOKEN: ${{ secrets.MORIWAKI_INSTAGRAM_PAGE_TOKEN }}
+          MORIWAKI_IG_ID: '17841401126524039'
+          MORIWAKI_GRAPH_API_VERSION: 'v26.0'
+          TZ: Asia/Tokyo
+        run: python instagram-daily-checker/collect_myojin_insights.py
+
       - name: Generate Excel report
         env:
           TZ: Asia/Tokyo
@@ -92,13 +101,13 @@ jobs:
           NOW="$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')"
           printf 'date,result,checked_at,run_id\n%s,failure,%s,%s\n' "$TODAY" "$NOW" "${{ github.run_id }}" > instagram-daily-checker/status/latest.csv
 
-      - name: Commit updated data, reports and health status
+      - name: Commit updated data, insights, reports and health status
         if: always()
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add instagram-daily-checker/data instagram-daily-checker/reports instagram-daily-checker/status
+          git add instagram-daily-checker/data instagram-daily-checker/insights instagram-daily-checker/reports instagram-daily-checker/status
           if git diff --cached --quiet; then
             echo 'No changes to commit.'
           else

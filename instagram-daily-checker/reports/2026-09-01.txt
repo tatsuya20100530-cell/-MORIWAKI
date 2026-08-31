@@ -1,5 +1,5 @@
 MORIWAKI Instagram 日次チェック
-2026-09-01 06:20:45
+2026-09-01 06:41:48
 
 取得成功：12 / 20
 比較基準：2026-08-31
@@ -16,7 +16,7 @@ MORIWAKI Instagram 日次チェック
 凪店         moritani     mayumi.m                          -         算出不可          -           算出不可 ⚪
 凪店         joyama       ayumi__ulf                        -         算出不可          -           算出不可 ⚪
 東寝屋川店      yamamoto     kumi.yamamoto_                    0           +0          2             +0 🔴
-東寝屋川店      maesawa      moriwaki34maesawa                 0         算出不可         31           算出不可 🔴
+東寝屋川店      maesawa      moriwaki34maesawa                 0         算出不可         32           算出不可 🔴
 藤が尾店       moriwaki     mokoko_0227                      42           +0        552             +1 🔴
 藤が尾店       nishiguchi   yudai_nishiguchi                 54           +1        340             +1 🟢
 藤が尾店       masaoka      eri_msok                         58           +0        227             +1 🟢

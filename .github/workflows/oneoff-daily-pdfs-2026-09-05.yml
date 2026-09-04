@@ -241,17 +241,17 @@ jobs:
 
       - name: Validate rendered pages
         run: |
-          mkdir -p /tmp/news-pages /tmp/google-pages
-          pdftoppm -png -r 80 daily-artifacts/2026-09-05/時事新聞_2026-09-05_朝刊.pdf /tmp/news-pages/page >/dev/null 2>&1
-          pdftoppm -png -r 80 daily-artifacts/2026-09-05/Googleビジネス6店舗チェック_2026-09-05.pdf /tmp/google-pages/page >/dev/null 2>&1
-          test "$(find /tmp/news-pages -name '*.png' | wc -l)" -eq 6
-          test "$(find /tmp/google-pages -name '*.png' | wc -l)" -eq 1
+          mkdir -p daily-artifacts/2026-09-05/qa
+          pdftoppm -png -r 100 daily-artifacts/2026-09-05/時事新聞_2026-09-05_朝刊.pdf daily-artifacts/2026-09-05/qa/news-page >/dev/null 2>&1
+          pdftoppm -png -r 100 daily-artifacts/2026-09-05/Googleビジネス6店舗チェック_2026-09-05.pdf daily-artifacts/2026-09-05/qa/google-page >/dev/null 2>&1
+          test "$(find daily-artifacts/2026-09-05/qa -name 'news-page-*.png' | wc -l)" -eq 6
+          test "$(find daily-artifacts/2026-09-05/qa -name 'google-page-*.png' | wc -l)" -eq 1
 
       - name: Commit PDFs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add daily-artifacts/2026-09-05
-          git commit -m 'docs: add MORIWAKI daily PDFs for 2026-09-05'
+          git commit -m 'docs: add MORIWAKI daily PDFs and QA pages for 2026-09-05'
           git pull --rebase origin main
           git push origin HEAD:main

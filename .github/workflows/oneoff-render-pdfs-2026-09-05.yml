@@ -1,0 +1,50 @@
+name: One-off render PDFs 2026-09-05
+
+on:
+  push:
+    paths:
+      - '.github/workflows/oneoff-render-pdfs-2026-09-05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render PDF pages
+        run: |
+          python -m pip install --disable-pip-version-check pymupdf
+          python - <<'PY'
+          from pathlib import Path
+          import fitz
+          root = Path("daily-artifacts/2026-09-05")
+          qa = root / "qa"
+          qa.mkdir(exist_ok=True)
+          jobs = [
+              (root / "Googleビジネス6店舗チェック_2026-09-05.pdf", "google"),
+              (root / "時事新聞_2026-09-05_朝刊.pdf", "news"),
+          ]
+          for pdf, prefix in jobs:
+              doc = fitz.open(pdf)
+              for i, page in enumerate(doc):
+                  pix = page.get_pixmap(matrix=fitz.Matrix(1.25, 1.25), alpha=False)
+                  pix.save(qa / f"{prefix}-page-{i+1}.png")
+          assert len(list(qa.glob("news-page-*.png"))) == 6
+          assert len(list(qa.glob("google-page-*.png"))) == 1
+          PY
+      - name: Commit QA images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '4189822+github-actions[bot]@users.noreply.github.com'
+          git add daily-artifacts/2026-09-05/qa
+          git commit -m 'chore: add rendered QA pages for 2026-09-05'
+          git pull --rebase origin main
+          git push origin HEAD:main

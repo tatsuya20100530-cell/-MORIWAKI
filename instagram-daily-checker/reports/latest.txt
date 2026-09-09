@@ -1,30 +1,31 @@
 MORIWAKI Instagram 日次チェック
-2026-09-09 06:44:08
+2026-09-09 16:06:20 JST
 
-取得成功：12 / 20
+取得成功：16 / 20（Meta API 12、Instagram公開プロフィール補完 4）
 比較基準：2026-09-08
 
-店舗         スタッフ         Instagram                       投稿数        投稿前日比      フォロワー       フォロワー前日比
-交野店        kuroki       kuro_rina                         -         算出不可          -           算出不可 ⚪
-交野店        kurogi       oo_o___co_c                       -         算出不可          -           算出不可 ⚪
-宮之阪店       myojin       myojin_moriwaki                 329           +3        538             +0 🟢
-宮之阪店       uga          serika_hair                       0           +0         20             +3 🔴
-宮之阪店       ueno         by.puiko                          -         算出不可          -           算出不可 ⚪
-宮之阪店       morimoto     kaz5_129                          -         算出不可          -           算出不可 ⚪
-宮之阪店       yamakawa     u.ne.assistant                    -         算出不可          -           算出不可 ⚪
-凪店         hatano       kento_hair                       32           +0        105             +0 🟡
-凪店         moritani     mayumi.m                          -         算出不可          -           算出不可 ⚪
-凪店         joyama       ayumi__ulf                        -         算出不可          -           算出不可 ⚪
-東寝屋川店      yamamoto     kumi.yamamoto_                    6           +1         15             +0 🟢
-東寝屋川店      maesawa      moriwaki34maesawa                 6           +1         48             +2 🟢
-藤が尾店       moriwaki     mokoko_0227                      42           +0        554             +1 🔴
-藤が尾店       nishiguchi   yudai_nishiguchi                 57           +0        342             +0 🟡
-藤が尾店       masaoka      eri_msok                         72           +0        232             +0 🟢
-藤が尾店       nagashima    n_itta_22                        31           +0         84             +1 🟢
-河内磐船店      taira        ta.i.ra0417_iwafune              10           +0         47             +0 🟢
-河内磐船店      oka          yu_chan1992                       -         算出不可          -           算出不可 ⚪
-河内磐船店      yamade       iwafune_yamadeayumi               9           +0         84             +0 🟡
-河内磐船店      ogawa        moko_ogawa1124                   11           +0        172             +0 🔴
+店舗,スタッフ,Instagram,投稿数,投稿前日比,フォロワー,フォロワー前日比,状態,取得元
+交野店,kuroki,kuro_rina,7,算出不可,53,算出不可,公開取得,Instagram公開プロフィール
+交野店,kurogi,oo_o___co_c,2,算出不可,69,算出不可,公開取得,Instagram公開プロフィール
+宮之阪店,myojin,myojin_moriwaki,329,+3件,538,+0人,🟢,Meta API
+宮之阪店,uga,serika_hair,0,+0件,20,+3人,🔴,Meta API
+宮之阪店,ueno,by.puiko,-,算出不可,-,算出不可,⚪,API・公開プロフィールとも表示不可
+宮之阪店,morimoto,kaz5_129,-,算出不可,-,算出不可,⚪,API・公開プロフィールとも表示不可
+宮之阪店,yamakawa,u.ne.assistant,-,算出不可,-,算出不可,⚪,API・公開プロフィールとも表示不可
+凪店,hatano,kento_hair,32,+0件,105,+0人,🟡,Meta API
+凪店,moritani,mayumi.m,29,算出不可,28,算出不可,公開取得,Instagram公開プロフィール
+凪店,joyama,ayumi__ulf,9,算出不可,114,算出不可,公開取得,Instagram公開プロフィール
+東寝屋川店,yamamoto,kumi.yamamoto_,6,+1件,15,+0人,🟢,Meta API
+東寝屋川店,maesawa,moriwaki34maesawa,6,+1件,48,+2人,🟢,Meta API
+藤が尾店,moriwaki,mokoko_0227,42,+0件,554,+1人,🔴,Meta API
+藤が尾店,nishiguchi,yudai_nishiguchi,57,+0件,342,+0人,🟡,Meta API
+藤が尾店,masaoka,eri_msok,72,+0件,232,+0人,🟢,Meta API
+藤が尾店,nagashima,n_itta_22,31,+0件,84,+1人,🟢,Meta API
+河内磐船店,taira,ta.i.ra0417_iwafune,10,+0件,47,+0人,🟢,Meta API
+河内磐船店,oka,yu_chan1992,-,算出不可,-,算出不可,⚪,API・公開プロフィールとも表示不可
+河内磐船店,yamade,iwafune_yamadeayumi,9,+0件,84,+0人,🟡,Meta API
+河内磐船店,ogawa,moko_ogawa1124,11,+0件,172,+0人,🔴,Meta API
 
-前日比表記：増加=+N、変動なし=+0、減少=-N。前日または当日の取得不可は算出不可。
-🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可
+投稿増加：myojin +3件、yamamoto +1件、maesawa +1件（合計+5件）
+フォロワー増加：uga +3人、maesawa +2人、moriwaki +1人、nagashima +1人（合計+7人）
+公開補完4名は前日CSVが取得不可のため、前日比は算出不可。

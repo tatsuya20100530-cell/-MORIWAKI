@@ -1,13 +1,13 @@
 myojin_moriwaki Instagramインサイト
-2026-10-10 09:21:09
+2026-10-11 08:53:42
 
 取得結果：success
 対象投稿：10件
 取得できた指標：reach, saved, shares, total_interactions, views
 
 反応上位投稿：
-1. 2026-10-09T03:30:01+0000 | FEED | reach=22 views=58 saved=0 shares=0 | https://www.instagram.com/p/DeQjCCDE-2d/
-2. 2026-10-07T11:30:07+0000 | FEED | reach=48 views=109 saved=0 shares=0 | https://www.instagram.com/p/DeMQXPlE3m2/
-3. 2026-10-07T02:45:01+0000 | FEED | reach=30 views=62 saved=0 shares=0 | https://www.instagram.com/p/DeLUSPxk-CU/
-4. 2026-10-08T04:00:03+0000 | FEED | reach=24 views=51 saved=0 shares=0 | https://www.instagram.com/p/DeOBuDlk4u-/
-5. 2026-10-08T10:30:01+0000 | FEED | reach=28 views=71 saved=0 shares=0 | https://www.instagram.com/p/DeOuWxfE_4Z/
+1. 2026-10-08T04:00:03+0000 | FEED | reach=30 views=63 saved=0 shares=0 | https://www.instagram.com/p/DeOBuDlk4u-/
+2. 2026-10-09T03:30:01+0000 | FEED | reach=32 views=82 saved=0 shares=0 | https://www.instagram.com/p/DeQjCCDE-2d/
+3. 2026-10-10T09:00:03+0000 | FEED | reach=49 views=132 saved=0 shares=0 | https://www.instagram.com/p/DeTtmo5k2AB/
+4. 2026-10-08T10:30:01+0000 | FEED | reach=32 views=78 saved=0 shares=0 | https://www.instagram.com/p/DeOuWxfE_4Z/
+5. 2026-10-10T03:00:03+0000 | FEED | reach=43 views=53 saved=0 shares=0 | https://www.instagram.com/p/DeTEXbjk_H2/

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "checked_at": "2026-10-13 11:16:38",
+  "date": "2026-10-14",
+  "checked_at": "2026-10-14 08:57:59",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,6 +14,60 @@
   ],
   "media": [
     {
+      "id": "18122120263944736",
+      "caption": "「可愛い」をそのまま真似するだけではなく、 今の長さ・髪質・なりたい雰囲気に合わせると、毎日の髪はもっと自分になじみます。  今回は、ミディアムの長さを活かして、やわらかく上品に動くパーマをご提案。 デジパなら、顔まわりから毛先まで自然なカールがつき、乾かすだけでも軽やかな印象に。  朝に頑張って巻かなくても、パーマで",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-10-13T22:30:38+0000",
+      "permalink": "https://www.instagram.com/reel/Dec4wpYzkR4/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 62,
+        "reach": 53,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18090257759239651",
+      "caption": "クセ毛で髪が多くて、朝はいつも広がる。 ずっと「髪質的にボブしかない」と言われてきたけれど、パーマやデジパを諦める必要はありません。  広がりやすい部分はストレートで整え、毛先には外ハネのカールを。 ストレートカールなら、パーマのような動きを楽しみながら、デジパでふくらみすぎる不安にも配慮できます。  乾かすだけで全体",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-10-13T09:00:03+0000",
+      "permalink": "https://www.instagram.com/p/Debb8AoEywp/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 73,
+        "reach": 31,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18102576839322732",
+      "caption": "「クセと毛量で広がるから、パーマやデジパは無理かも…」 そんなボブこそ、ストレートカールで変えられることがあります。  全体の広がりはストレートで整えて、毛先だけに外ハネのカールを。 パーマのような軽やかな動きは残しながら、デジパでふくらみすぎる不安を減らせるのが魅力です。  乾かすだけでまとまり、毛先には自然なニュア",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-10-13T04:30:01+0000",
+      "permalink": "https://www.instagram.com/p/Dea9GeqkyVX/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 91,
+        "reach": 29,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "17933995014401227",
       "caption": "クセ毛・多毛で広がりやすいから、ずっと同じボブ。 「パーマやデジパをすると、もっと膨らみそう…」と、ヘアチェンジを諦めていませんか？  そんな髪には、全体のボリュームをストレートで整えながら、毛先だけにカールをつけるストレートカールという選択もあります。 デジパのようなやわらかな動きと、パーマのような外ハネ感を楽しみな",
       "media_type": "VIDEO",
@@ -23,8 +77,8 @@
       "like_count": 1,
       "comments_count": 1,
       "metrics": {
-        "views": 35,
-        "reach": 24,
+        "views": 94,
+        "reach": 73,
         "total_interactions": 2,
         "saved": 0,
         "shares": 0
@@ -41,8 +95,8 @@
       "like_count": 1,
       "comments_count": 1,
       "metrics": {
-        "views": 78,
-        "reach": 35,
+        "views": 112,
+        "reach": 50,
         "total_interactions": 2,
         "saved": 0,
         "shares": 0
@@ -59,8 +113,8 @@
       "like_count": 4,
       "comments_count": 2,
       "metrics": {
-        "views": 64,
-        "reach": 32,
+        "views": 76,
+        "reach": 41,
         "total_interactions": 6,
         "saved": 0,
         "shares": 0
@@ -77,8 +131,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 239,
-        "reach": 213,
+        "views": 248,
+        "reach": 219,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -95,8 +149,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 81,
-        "reach": 37,
+        "views": 85,
+        "reach": 39,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -113,8 +167,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 83,
-        "reach": 31,
+        "views": 85,
+        "reach": 33,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -131,62 +185,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 111,
-        "reach": 87,
-        "total_interactions": 3,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18088720565662899",
-      "caption": "「髪を変えたい」の奥には、 “忙しい毎日でも、自分らしくオシャレでいたい”という気持ちがあると思います。  デジパやパーマは、朝のセットをラクにするためだけのものではありません☺️ 顔まわりにカールがあるミディアムレイヤーなら、結んだ日も後れ毛まで可愛く、ふと鏡を見た時に「今日の私、いいかも」と思える。  デジパでつく",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-10-10T09:00:03+0000",
-      "permalink": "https://www.instagram.com/p/DeTtmo5k2AB/",
-      "like_count": 5,
-      "comments_count": 1,
-      "metrics": {
-        "views": 184,
-        "reach": 66,
-        "total_interactions": 6,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "17949909156291207",
-      "caption": "髪を結ぶ日が多い人こそ、パーマを選択肢に。  下ろした時だけ可愛いパーマではなく、結んだ時にも「ちゃんと可愛い」をつくるのが、顔まわりのCカールです☺️  デジパで顔まわりにやわらかな動きをつけると、ひとつ結びでも表情が明るく見え、後れ毛まで自然に決まります。 忙しい朝も、全部を巻き直さなくて大丈夫。乾かして、顔まわり",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-10-10T03:00:03+0000",
-      "permalink": "https://www.instagram.com/p/DeTEXbjk_H2/",
-      "like_count": 3,
-      "comments_count": 1,
-      "metrics": {
-        "views": 61,
-        "reach": 87,
-        "total_interactions": 5,
-        "saved": 1,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18149051326558886",
-      "caption": "ナチュラルが好き。 でも、少しだけ今っぽく気分を変えたい。  そんなミディアムには、顔まわりをしっかり動かすパーマがおすすめです☺️ デジパで前髪・顔まわりにカールをつけると、いつもの服にも自然になじみながら、横顔までぐっと印象的に。  パーマは、強く見せるためだけのものではありません。 乾かすだけで動きが出やすいデジ",
-      "media_type": "VIDEO",
-      "media_product_type": "REELS",
-      "timestamp": "2026-10-09T22:30:10+0000",
-      "permalink": "https://www.instagram.com/reel/DeSleKhzq55/",
-      "like_count": 2,
-      "comments_count": 1,
-      "metrics": {
-        "views": 226,
-        "reach": 190,
+        "views": 114,
+        "reach": 88,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0

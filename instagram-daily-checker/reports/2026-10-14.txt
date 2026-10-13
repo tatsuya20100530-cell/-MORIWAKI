@@ -1,0 +1,30 @@
+MORIWAKI Instagram 日次チェック
+2026-10-14 08:56:29
+
+取得成功：12 / 20
+比較基準：2026-10-13
+
+店舗         スタッフ         Instagram                       投稿数        投稿前日比      フォロワー       フォロワー前日比
+交野店        kuroki       kuro_rina                         -         算出不可          -           算出不可 ⚪
+交野店        kurogi       oo_o___co_c                       -         算出不可          -           算出不可 ⚪
+宮之阪店       myojin       myojin_moriwaki                 435           +3        543             +2 🟢
+宮之阪店       uga          serika_hair                       7           +0         70             +2 🟡
+宮之阪店       ueno         by.puiko                          -         算出不可          -           算出不可 ⚪
+宮之阪店       morimoto     kaz5_129                          -         算出不可          -           算出不可 ⚪
+宮之阪店       yamakawa     u.ne.assistant                    -         算出不可          -           算出不可 ⚪
+凪店         hatano       kento_hair                       39           +0        109             +0 🔴
+凪店         moritani     mayumi.m                          -         算出不可          -           算出不可 ⚪
+凪店         joyama       ayumi__ulf                        -         算出不可          -           算出不可 ⚪
+東寝屋川店      yamamoto     kumi.yamamoto_                   27           +1         30             +0 🟢
+東寝屋川店      maesawa      moriwaki34maesawa                28           +0         68             +0 🟡
+藤が尾店       moriwaki     mokoko_0227                      42           +0        557             +0 🔴
+藤が尾店       nishiguchi   yudai_nishiguchi                 59           +1        348             +0 🟢
+藤が尾店       masaoka      eri_msok                        108           +1        240             -1 🟢
+藤が尾店       nagashima    n_itta_22                        39           +0         92             +2 🟡
+河内磐船店      taira        ta.i.ra0417_iwafune              12           +0         51             +0 🔴
+河内磐船店      oka          yu_chan1992                       -         算出不可          -           算出不可 ⚪
+河内磐船店      yamade       iwafune_yamadeayumi              14           +0        104             +0 🔴
+河内磐船店      ogawa        moko_ogawa1124                   14           +1        180             +0 🟢
+
+前日比表記：増加=+N、変動なし=+0、減少=-N。前日または当日の取得不可は算出不可。
+🟢 直近3日未満　🟡 3〜6日　🔴 7日以上　⚪ API取得不可

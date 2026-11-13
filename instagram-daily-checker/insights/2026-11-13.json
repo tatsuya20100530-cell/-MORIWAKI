@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-13",
+  "checked_at": "2026-11-13 10:30:58",
+  "account": "myojin_moriwaki",
+  "result": "success",
+  "media_error": null,
+  "media_count": 10,
+  "available_metrics": [
+    "reach",
+    "saved",
+    "shares",
+    "total_interactions",
+    "views"
+  ],
+  "media": [
+    {
+      "id": "18473417212139057",
+      "caption": "ウィッグでのカットandパーマの施術風景です。  乾かすだけでも、ふんわり動く。 朝の支度がラクになるショートレイヤー🌿  「ショートにしたいけど、トップがぺたんとしそう」 「黒髪でも、やわらかい雰囲気を楽しみたい」  そんな方におすすめなのが、ショートレイヤー×ニュアンスパーマ。  カットでつくる軽さに、パーマのやわ",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-12T06:00:06+0000",
+      "permalink": "https://www.instagram.com/reel/DfoXLhlzsL_/",
+      "like_count": 2,
+      "comments_count": 0,
+      "metrics": {
+        "views": 146,
+        "reach": 109,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18201155944388152",
+      "caption": "朝3分で、ふんわりやわらかいショートに🌿  「ショートにしたいけど、朝のセットが大変そう」 「黒髪でも、やさしい雰囲気にしたい」  そんな方におすすめの、ナチュラルなショートパーマです。  パーマやデジパで毛先にやわらかな動きをつけると、黒髪にも軽やかさが生まれます。顔まわりはふんわり、えり足はすっきり。横顔まで自然な",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-12T03:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DfoClkdE5iD/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 64,
+        "reach": 35,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18150728416636445",
+      "caption": "カフェじゃ終わらないよね  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-11T22:15:46+0000",
+      "permalink": "https://www.instagram.com/reel/DfniIPgzcFL/",
+      "like_count": 1,
+      "comments_count": 0,
+      "metrics": {
+        "views": 181,
+        "reach": 165,
+        "total_interactions": 1,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18046350074827373",
+      "caption": "ロングのまま、ふわっと軽やかに🫧 バタフライレイヤー×ニュアンスパーマ  「ロングは好きだけど、いつも同じ印象」 「朝のスタイリングをもっとラクにしたい」  そんな方におすすめなのが、レイヤーとデジパの組み合わせ🌿  顔まわりから毛先まで、デジパでやわらかなカールをつけることで、乾かしたときも動きのあるスタイルに。パー",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-09T09:00:01+0000",
+      "permalink": "https://www.instagram.com/p/Dfg9fISE-xk/",
+      "like_count": 4,
+      "comments_count": 1,
+      "metrics": {
+        "views": 92,
+        "reach": 44,
+        "total_interactions": 5,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "17999203083060855",
+      "caption": "朝5分で、顔まわりまでやわらかい。 バタフライレイヤー×デジパで、忙しい朝にも余裕を◎  軽く濡らしてオイルをなじませるだけで、デジパのカールとレイヤーの動きが自然に復活。 乾かすだけで形になりやすいパーマだから、毎朝コテで巻く時間を減らしたい方にもおすすめです。  前髪の透け感、顔まわりのやわらかな毛流れ、毛先の軽や",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-09T03:30:02+0000",
+      "permalink": "https://www.instagram.com/p/DfgXp7-k42U/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 75,
+        "reach": 40,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18287132173295382",
+      "caption": "決めた。  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-08T22:24:35+0000",
+      "permalink": "https://www.instagram.com/reel/Dff0lB1T0Ly/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 206,
+        "reach": 178,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "17915162454542289",
+      "caption": "軽さも、まとまりも。 朝の支度までラクになるレイヤーボブパーマ。  毛先だけがハネる、表面がぺたんとする、ボブにすると毎朝のスタイリングが難しい。 そんなお悩みに、やわらかなデジパがおすすめです◎  デジパで表面と顔まわりにゆるく動きをつけると、乾かすだけで自然な丸みと空気感が出やすくなります。 首元はすっきり、横顔に",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-06T04:00:02+0000",
+      "permalink": "https://www.instagram.com/p/DfYsxdTk5FQ/",
+      "like_count": 6,
+      "comments_count": 1,
+      "metrics": {
+        "views": 126,
+        "reach": 80,
+        "total_interactions": 11,
+        "saved": 4,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18177060013454128",
+      "caption": "朝5分で、やわらかく動くカールボブ。 毛先を軽く濡らしてオイルをなじませるだけで、デジパのニュアンスが戻ります◎  ボブはまとまりやすい反面、動きが出にくかったり、朝のハネが気になったりすることも。 そこでパーマやデジパで、顔まわり・毛先・表面にやわらかな動きをつくると、乾かすだけでも自然な軽さが出やすくなります。  ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-06T03:10:37+0000",
+      "permalink": "https://www.instagram.com/p/DfYnC1Fkw0M/",
+      "like_count": 5,
+      "comments_count": 0,
+      "metrics": {
+        "views": 137,
+        "reach": 92,
+        "total_interactions": 8,
+        "saved": 3,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "17993035610863304",
+      "caption": "あるある。  ランチ楽しみ。  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-06T02:42:15+0000",
+      "permalink": "https://www.instagram.com/reel/DfYjn5TzhLD/",
+      "like_count": 3,
+      "comments_count": 0,
+      "metrics": {
+        "views": 227,
+        "reach": 206,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18130889296850167",
+      "caption": "メガネに似合う、やわらかショートパーマ。 朝は軽く濡らしてオイルをなじませるだけで、デジパのふんわり感と束感が戻ります。  ショートは寝ぐせや後頭部のボリュームが気になりやすいからこそ、デジパで「乾かすだけで形になる」ベースづくりを。 パーマでトップに自然な高さをつくり、耳まわりはすっきり。メガネとのバランスも整いやす",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-02T09:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DfO73awk0Mc/",
+      "like_count": 8,
+      "comments_count": 1,
+      "metrics": {
+        "views": 164,
+        "reach": 184,
+        "total_interactions": 16,
+        "saved": 7,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    }
+  ]
+}

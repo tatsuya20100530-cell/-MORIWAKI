@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "checked_at": "2026-11-15 09:22:25",
+  "date": "2026-11-16",
+  "checked_at": "2026-11-16 09:25:37",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -23,8 +23,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 194,
-        "reach": 137,
+        "views": 202,
+        "reach": 144,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -41,8 +41,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 112,
-        "reach": 70,
+        "views": 134,
+        "reach": 75,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -59,8 +59,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 192,
-        "reach": 178,
+        "views": 195,
+        "reach": 181,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -77,8 +77,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 103,
-        "reach": 49,
+        "views": 113,
+        "reach": 53,
         "total_interactions": 5,
         "saved": 0,
         "shares": 0
@@ -95,8 +95,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 84,
-        "reach": 47,
+        "views": 85,
+        "reach": 51,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -131,8 +131,8 @@
       "like_count": 6,
       "comments_count": 1,
       "metrics": {
-        "views": 142,
-        "reach": 97,
+        "views": 144,
+        "reach": 98,
         "total_interactions": 12,
         "saved": 5,
         "shares": 0
@@ -146,12 +146,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-06T03:10:37+0000",
       "permalink": "https://www.instagram.com/p/DfYnC1Fkw0M/",
-      "like_count": 5,
+      "like_count": 6,
       "comments_count": 0,
       "metrics": {
-        "views": 147,
-        "reach": 134,
-        "total_interactions": 8,
+        "views": 149,
+        "reach": 156,
+        "total_interactions": 9,
         "saved": 3,
         "shares": 0
       },
@@ -167,8 +167,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 228,
-        "reach": 211,
+        "views": 229,
+        "reach": 214,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -185,10 +185,10 @@
       "like_count": 8,
       "comments_count": 1,
       "metrics": {
-        "views": 185,
-        "reach": 218,
-        "total_interactions": 19,
-        "saved": 10,
+        "views": 202,
+        "reach": 244,
+        "total_interactions": 20,
+        "saved": 11,
         "shares": 0
       },
       "unavailable_metrics": []

@@ -1,13 +1,13 @@
 myojin_moriwaki Instagramインサイト
-2026-11-16 09:25:37
+2026-11-17 12:13:07
 
 取得結果：success
 対象投稿：10件
 取得できた指標：reach, saved, shares, total_interactions, views
 
 反応上位投稿：
-1. 2026-11-06T04:00:02+0000 | FEED | reach=98 views=144 saved=5 shares=0 | https://www.instagram.com/p/DfYsxdTk5FQ/
-2. 2026-11-09T09:00:01+0000 | FEED | reach=53 views=113 saved=0 shares=0 | https://www.instagram.com/p/Dfg9fISE-xk/
-3. 2026-11-02T09:00:01+0000 | FEED | reach=244 views=202 saved=11 shares=0 | https://www.instagram.com/p/DfO73awk0Mc/
-4. 2026-11-09T03:30:02+0000 | FEED | reach=51 views=85 saved=0 shares=0 | https://www.instagram.com/p/DfgXp7-k42U/
-5. 2026-11-06T03:10:37+0000 | FEED | reach=156 views=149 saved=3 shares=0 | https://www.instagram.com/p/DfYnC1Fkw0M/
+1. 2026-11-06T04:00:02+0000 | FEED | reach=101 views=145 saved=5 shares=0 | https://www.instagram.com/p/DfYsxdTk5FQ/
+2. 2026-11-09T09:00:01+0000 | FEED | reach=54 views=114 saved=0 shares=0 | https://www.instagram.com/p/Dfg9fISE-xk/
+3. 2026-11-02T09:00:01+0000 | FEED | reach=262 views=207 saved=11 shares=0 | https://www.instagram.com/p/DfO73awk0Mc/
+4. 2026-11-09T03:30:02+0000 | FEED | reach=56 views=93 saved=0 shares=0 | https://www.instagram.com/p/DfgXp7-k42U/
+5. 2026-11-06T03:10:37+0000 | FEED | reach=176 views=150 saved=3 shares=0 | https://www.instagram.com/p/DfYnC1Fkw0M/

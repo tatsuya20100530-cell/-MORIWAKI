@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "checked_at": "2026-11-17 12:13:07",
+  "date": "2026-11-18",
+  "checked_at": "2026-11-18 11:38:18",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,6 +14,24 @@
   ],
   "media": [
     {
+      "id": "18110708618571261",
+      "caption": "朝のバタバタ。  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-18T00:14:53+0000",
+      "permalink": "https://www.instagram.com/reel/Df3MTLczGON/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 27,
+        "reach": 22,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "18473417212139057",
       "caption": "ウィッグでのカットandパーマの施術風景です。  乾かすだけでも、ふんわり動く。 朝の支度がラクになるショートレイヤー🌿  「ショートにしたいけど、トップがぺたんとしそう」 「黒髪でも、やわらかい雰囲気を楽しみたい」  そんな方におすすめなのが、ショートレイヤー×ニュアンスパーマ。  カットでつくる軽さに、パーマのやわ",
       "media_type": "VIDEO",
@@ -23,8 +41,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 216,
-        "reach": 149,
+        "views": 219,
+        "reach": 153,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -41,8 +59,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 136,
-        "reach": 79,
+        "views": 151,
+        "reach": 86,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -59,8 +77,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 199,
-        "reach": 183,
+        "views": 202,
+        "reach": 188,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -77,8 +95,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 114,
-        "reach": 54,
+        "views": 122,
+        "reach": 59,
         "total_interactions": 5,
         "saved": 0,
         "shares": 0
@@ -95,8 +113,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 93,
-        "reach": 56,
+        "views": 100,
+        "reach": 61,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -113,8 +131,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 216,
-        "reach": 191,
+        "views": 219,
+        "reach": 194,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -131,8 +149,8 @@
       "like_count": 6,
       "comments_count": 1,
       "metrics": {
-        "views": 145,
-        "reach": 101,
+        "views": 150,
+        "reach": 105,
         "total_interactions": 12,
         "saved": 5,
         "shares": 0
@@ -149,8 +167,8 @@
       "like_count": 6,
       "comments_count": 0,
       "metrics": {
-        "views": 150,
-        "reach": 176,
+        "views": 156,
+        "reach": 187,
         "total_interactions": 9,
         "saved": 3,
         "shares": 0
@@ -167,28 +185,10 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 231,
-        "reach": 216,
+        "views": 234,
+        "reach": 218,
         "total_interactions": 3,
         "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18130889296850167",
-      "caption": "メガネに似合う、やわらかショートパーマ。 朝は軽く濡らしてオイルをなじませるだけで、デジパのふんわり感と束感が戻ります。  ショートは寝ぐせや後頭部のボリュームが気になりやすいからこそ、デジパで「乾かすだけで形になる」ベースづくりを。 パーマでトップに自然な高さをつくり、耳まわりはすっきり。メガネとのバランスも整いやす",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-11-02T09:00:01+0000",
-      "permalink": "https://www.instagram.com/p/DfO73awk0Mc/",
-      "like_count": 8,
-      "comments_count": 1,
-      "metrics": {
-        "views": 207,
-        "reach": 262,
-        "total_interactions": 20,
-        "saved": 11,
         "shares": 0
       },
       "unavailable_metrics": []

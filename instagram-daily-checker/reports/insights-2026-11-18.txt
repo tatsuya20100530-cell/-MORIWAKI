@@ -1,0 +1,13 @@
+myojin_moriwaki Instagramインサイト
+2026-11-18 11:38:18
+
+取得結果：success
+対象投稿：10件
+取得できた指標：reach, saved, shares, total_interactions, views
+
+反応上位投稿：
+1. 2026-11-06T04:00:02+0000 | FEED | reach=105 views=150 saved=5 shares=0 | https://www.instagram.com/p/DfYsxdTk5FQ/
+2. 2026-11-18T00:14:53+0000 | REELS | reach=22 views=27 saved=0 shares=0 | https://www.instagram.com/reel/Df3MTLczGON/
+3. 2026-11-09T09:00:01+0000 | FEED | reach=59 views=122 saved=0 shares=0 | https://www.instagram.com/p/Dfg9fISE-xk/
+4. 2026-11-09T03:30:02+0000 | FEED | reach=61 views=100 saved=0 shares=0 | https://www.instagram.com/p/DfgXp7-k42U/
+5. 2026-11-06T03:10:37+0000 | FEED | reach=187 views=156 saved=3 shares=0 | https://www.instagram.com/p/DfYnC1Fkw0M/

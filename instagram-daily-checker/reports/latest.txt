@@ -1,13 +1,13 @@
 MORIWAKI Instagram 日次チェック
-2026-11-18 12:06:02
+2026-11-19 11:00:25
 
 取得成功：12 / 20
-比較基準：2026-11-17
+比較基準：2026-11-18
 
 店舗         スタッフ         Instagram                       投稿数        投稿前日比      フォロワー       フォロワー前日比
 交野店        kuroki       kuro_rina                         -         算出不可          -           算出不可 ⚪
 交野店        kurogi       oo_o___co_c                       -         算出不可          -           算出不可 ⚪
-宮之阪店       myojin       myojin_moriwaki                 480           +1        559             +0 🟢
+宮之阪店       myojin       myojin_moriwaki                 482           +2        559             +0 🟢
 宮之阪店       uga          serika_hair                      17           +0         95             +0 🟡
 宮之阪店       ueno         by.puiko                          -         算出不可          -           算出不可 ⚪
 宮之阪店       morimoto     kaz5_129                          -         算出不可          -           算出不可 ⚪
@@ -15,11 +15,11 @@ MORIWAKI Instagram 日次チェック
 凪店         hatano       kento_hair                       43           +0        111             +0 🔴
 凪店         moritani     mayumi.m                          -         算出不可          -           算出不可 ⚪
 凪店         joyama       ayumi__ulf                        -         算出不可          -           算出不可 ⚪
-東寝屋川店      yamamoto     kumi.yamamoto_                   46           +1         36             +0 🟢
-東寝屋川店      maesawa      moriwaki34maesawa                49           +1         75             +0 🟢
-藤が尾店       moriwaki     mokoko_0227                      42           +0        556             +0 🔴
+東寝屋川店      yamamoto     kumi.yamamoto_                   46           +0         36             +0 🟢
+東寝屋川店      maesawa      moriwaki34maesawa                49           +0         75             +0 🟢
+藤が尾店       moriwaki     mokoko_0227                      42           +0        557             +1 🔴
 藤が尾店       nishiguchi   yudai_nishiguchi                 59           +0        346             +0 🔴
-藤が尾店       masaoka      eri_msok                        123           +0        242             +0 🟢
+藤が尾店       masaoka      eri_msok                        123           +0        242             +0 🟡
 藤が尾店       nagashima    n_itta_22                        49           +0         97             +0 🟢
 河内磐船店      taira        ta.i.ra0417_iwafune              19           +0         58             +0 🟢
 河内磐船店      oka          yu_chan1992                       -         算出不可          -           算出不可 ⚪

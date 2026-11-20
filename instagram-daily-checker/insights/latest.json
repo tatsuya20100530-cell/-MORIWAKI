@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "checked_at": "2026-11-19 11:01:54",
+  "date": "2026-11-20",
+  "checked_at": "2026-11-20 10:56:20",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -20,12 +20,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-18T09:30:02+0000",
       "permalink": "https://www.instagram.com/p/Df4MAawEeHf/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 59,
-        "reach": 38,
-        "total_interactions": 3,
+        "views": 78,
+        "reach": 52,
+        "total_interactions": 4,
         "saved": 0,
         "shares": 0
       },
@@ -38,12 +38,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-18T06:30:16+0000",
       "permalink": "https://www.instagram.com/p/Df33bZqkVxp/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 57,
-        "reach": 31,
-        "total_interactions": 3,
+        "views": 84,
+        "reach": 53,
+        "total_interactions": 4,
         "saved": 0,
         "shares": 0
       },
@@ -56,12 +56,12 @@
       "media_product_type": "REELS",
       "timestamp": "2026-11-18T00:14:53+0000",
       "permalink": "https://www.instagram.com/reel/Df3MTLczGON/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 131,
-        "reach": 106,
-        "total_interactions": 2,
+        "views": 136,
+        "reach": 110,
+        "total_interactions": 3,
         "saved": 0,
         "shares": 0
       },
@@ -77,8 +77,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 221,
-        "reach": 156,
+        "views": 222,
+        "reach": 157,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -92,12 +92,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-12T03:00:01+0000",
       "permalink": "https://www.instagram.com/p/DfoClkdE5iD/",
-      "like_count": 4,
+      "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 165,
-        "reach": 91,
-        "total_interactions": 5,
+        "views": 177,
+        "reach": 96,
+        "total_interactions": 6,
         "saved": 0,
         "shares": 0
       },
@@ -114,7 +114,7 @@
       "comments_count": 1,
       "metrics": {
         "views": 202,
-        "reach": 189,
+        "reach": 191,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -128,12 +128,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-09T09:00:01+0000",
       "permalink": "https://www.instagram.com/p/Dfg9fISE-xk/",
-      "like_count": 4,
+      "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 123,
-        "reach": 59,
-        "total_interactions": 5,
+        "views": 127,
+        "reach": 61,
+        "total_interactions": 6,
         "saved": 0,
         "shares": 0
       },
@@ -149,8 +149,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 104,
-        "reach": 63,
+        "views": 107,
+        "reach": 66,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -185,8 +185,8 @@
       "like_count": 6,
       "comments_count": 1,
       "metrics": {
-        "views": 165,
-        "reach": 109,
+        "views": 171,
+        "reach": 112,
         "total_interactions": 12,
         "saved": 5,
         "shares": 0

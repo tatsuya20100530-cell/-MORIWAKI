@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "checked_at": "2026-11-20 10:56:20",
+  "date": "2026-11-21",
+  "checked_at": "2026-11-21 10:47:08",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -23,8 +23,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 78,
-        "reach": 52,
+        "views": 92,
+        "reach": 66,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -38,13 +38,13 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-18T06:30:16+0000",
       "permalink": "https://www.instagram.com/p/Df33bZqkVxp/",
-      "like_count": 3,
+      "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 84,
-        "reach": 53,
-        "total_interactions": 4,
-        "saved": 0,
+        "views": 96,
+        "reach": 63,
+        "total_interactions": 6,
+        "saved": 1,
         "shares": 0
       },
       "unavailable_metrics": []
@@ -59,8 +59,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 136,
-        "reach": 110,
+        "views": 141,
+        "reach": 115,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -77,8 +77,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 222,
-        "reach": 157,
+        "views": 225,
+        "reach": 160,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -95,8 +95,8 @@
       "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 177,
-        "reach": 96,
+        "views": 179,
+        "reach": 99,
         "total_interactions": 6,
         "saved": 0,
         "shares": 0
@@ -113,8 +113,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 202,
-        "reach": 191,
+        "views": 204,
+        "reach": 193,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -131,8 +131,8 @@
       "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 127,
-        "reach": 61,
+        "views": 131,
+        "reach": 63,
         "total_interactions": 6,
         "saved": 0,
         "shares": 0
@@ -149,10 +149,10 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 107,
-        "reach": 66,
-        "total_interactions": 3,
-        "saved": 0,
+        "views": 112,
+        "reach": 69,
+        "total_interactions": 4,
+        "saved": 1,
         "shares": 0
       },
       "unavailable_metrics": []
@@ -167,8 +167,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 219,
-        "reach": 194,
+        "views": 220,
+        "reach": 197,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -185,8 +185,8 @@
       "like_count": 6,
       "comments_count": 1,
       "metrics": {
-        "views": 171,
-        "reach": 112,
+        "views": 176,
+        "reach": 115,
         "total_interactions": 12,
         "saved": 5,
         "shares": 0

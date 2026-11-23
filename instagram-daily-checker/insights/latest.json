@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "checked_at": "2026-11-22 09:42:38",
+  "date": "2026-11-23",
+  "checked_at": "2026-11-23 10:09:41",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,6 +14,24 @@
   ],
   "media": [
     {
+      "id": "18161079568567486",
+      "caption": "#ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-22T22:32:48+0000",
+      "permalink": "https://www.instagram.com/reel/DgD4n6tT7JU/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 165,
+        "reach": 138,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "18134789890813561",
       "caption": "乾かして、オイルをなじませるだけ。 忙しい朝にも、ふんわりやわらかなボブ🌿  「ボブにしたいけど、朝のハネが心配」 「ぺたんとせず、自然な動きがほしい」  そんな方におすすめのニュアンスパーマです。  パーマやデジパで毛先にやわらかな動きをつけると、ボブに軽さと立体感が生まれます。顔まわりのカールは、耳にかけた日もやさ",
       "media_type": "CAROUSEL_ALBUM",
@@ -23,8 +41,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 100,
-        "reach": 77,
+        "views": 111,
+        "reach": 85,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -41,8 +59,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 103,
-        "reach": 74,
+        "views": 110,
+        "reach": 86,
         "total_interactions": 6,
         "saved": 1,
         "shares": 0
@@ -59,8 +77,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 143,
-        "reach": 117,
+        "views": 144,
+        "reach": 120,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -77,8 +95,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 232,
-        "reach": 165,
+        "views": 234,
+        "reach": 167,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -95,8 +113,8 @@
       "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 191,
-        "reach": 108,
+        "views": 199,
+        "reach": 111,
         "total_interactions": 6,
         "saved": 0,
         "shares": 0
@@ -113,8 +131,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 206,
-        "reach": 197,
+        "views": 207,
+        "reach": 198,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -149,8 +167,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 116,
-        "reach": 75,
+        "views": 118,
+        "reach": 80,
         "total_interactions": 4,
         "saved": 1,
         "shares": 0
@@ -167,28 +185,10 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 222,
-        "reach": 199,
+        "views": 223,
+        "reach": 201,
         "total_interactions": 3,
         "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "17915162454542289",
-      "caption": "軽さも、まとまりも。 朝の支度までラクになるレイヤーボブパーマ。  毛先だけがハネる、表面がぺたんとする、ボブにすると毎朝のスタイリングが難しい。 そんなお悩みに、やわらかなデジパがおすすめです◎  デジパで表面と顔まわりにゆるく動きをつけると、乾かすだけで自然な丸みと空気感が出やすくなります。 首元はすっきり、横顔に",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-11-06T04:00:02+0000",
-      "permalink": "https://www.instagram.com/p/DfYsxdTk5FQ/",
-      "like_count": 6,
-      "comments_count": 1,
-      "metrics": {
-        "views": 181,
-        "reach": 116,
-        "total_interactions": 12,
-        "saved": 5,
         "shares": 0
       },
       "unavailable_metrics": []

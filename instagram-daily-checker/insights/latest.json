@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "checked_at": "2026-11-23 10:09:41",
+  "date": "2026-11-24",
+  "checked_at": "2026-11-24 14:01:06",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,18 +14,90 @@
   ],
   "media": [
     {
+      "id": "18188060080425768",
+      "caption": "朝のスタイリングが、もっと楽しみに🌿 デジパでつくる、やわらかニュアンスロング。  「毎朝コテで巻く時間がない」 「ロングヘアに動きがほしい」 「頑張りすぎず、おしゃれに見せたい」  そんな方におすすめなのが、レイヤーカットとパーマの組み合わせ✨  顔まわりにやわらかな毛流れをつくり、毛先にはふんわりとした動きを。デジ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-24T03:00:02+0000",
+      "permalink": "https://www.instagram.com/p/DgG8OJlk51u/",
+      "like_count": 0,
+      "comments_count": 0,
+      "metrics": {
+        "views": 15,
+        "reach": 6,
+        "total_interactions": 0,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18134050183866629",
+      "caption": "衣替えしましたか？  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-23T22:00:06+0000",
+      "permalink": "https://www.instagram.com/reel/DgGZya6zlsa/",
+      "like_count": 2,
+      "comments_count": 2,
+      "metrics": {
+        "views": 114,
+        "reach": 98,
+        "total_interactions": 4,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18157742236524815",
+      "caption": "朝の支度をラクにして、ふんわり軽やかな髪へ🌿 ハッシュカット×ニュアンスパーマ  「長さは残したいけど、いつも同じ髪型になる」 「顔まわりに動きがほしい」 「忙しい朝も、簡単に可愛く整えたい」  そんな方におすすめなのが、ハッシュカットとデジパの組み合わせ✨  顔まわりのレイヤーに、デジパでやわらかな動きをプラス。毛先",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-23T08:00:02+0000",
+      "permalink": "https://www.instagram.com/p/DgE5rtwk3Ql/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 47,
+        "reach": 24,
+        "total_interactions": 4,
+        "saved": 1,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "17953599423056769",
+      "caption": "朝5分で、ふんわり軽やか🌿 ハッシュカット×ニュアンスパーマ  「毎朝のスタイリングをラクにしたい」 「長さは残して、雰囲気を変えたい」  そんな方におすすめなのが、ハッシュカットとデジパの組み合わせ✨  顔まわりに入れたレイヤーと、デジパのやわらかな動きで、伸ばしかけの髪も軽やかな印象に。パーマの動きがあるから、ひと",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-23T03:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DgEXWb9k2SZ/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 77,
+        "reach": 30,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "18161079568567486",
       "caption": "#ある女性の物語  #あるある",
       "media_type": "VIDEO",
       "media_product_type": "REELS",
       "timestamp": "2026-11-22T22:32:48+0000",
       "permalink": "https://www.instagram.com/reel/DgD4n6tT7JU/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 165,
-        "reach": 138,
-        "total_interactions": 2,
+        "views": 304,
+        "reach": 246,
+        "total_interactions": 3,
         "saved": 0,
         "shares": 0
       },
@@ -41,8 +113,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 111,
-        "reach": 85,
+        "views": 117,
+        "reach": 92,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -59,8 +131,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 110,
-        "reach": 86,
+        "views": 117,
+        "reach": 98,
         "total_interactions": 6,
         "saved": 1,
         "shares": 0
@@ -77,8 +149,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 144,
-        "reach": 120,
+        "views": 145,
+        "reach": 122,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -95,8 +167,8 @@
       "like_count": 3,
       "comments_count": 0,
       "metrics": {
-        "views": 234,
-        "reach": 167,
+        "views": 235,
+        "reach": 169,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -113,81 +185,9 @@
       "like_count": 5,
       "comments_count": 1,
       "metrics": {
-        "views": 199,
-        "reach": 111,
+        "views": 203,
+        "reach": 114,
         "total_interactions": 6,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18150728416636445",
-      "caption": "カフェじゃ終わらないよね  #ある女性の物語  #あるある",
-      "media_type": "VIDEO",
-      "media_product_type": "REELS",
-      "timestamp": "2026-11-11T22:15:46+0000",
-      "permalink": "https://www.instagram.com/reel/DfniIPgzcFL/",
-      "like_count": 3,
-      "comments_count": 1,
-      "metrics": {
-        "views": 207,
-        "reach": 198,
-        "total_interactions": 4,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18046350074827373",
-      "caption": "ロングのまま、ふわっと軽やかに🫧 バタフライレイヤー×ニュアンスパーマ  「ロングは好きだけど、いつも同じ印象」 「朝のスタイリングをもっとラクにしたい」  そんな方におすすめなのが、レイヤーとデジパの組み合わせ🌿  顔まわりから毛先まで、デジパでやわらかなカールをつけることで、乾かしたときも動きのあるスタイルに。パー",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-11-09T09:00:01+0000",
-      "permalink": "https://www.instagram.com/p/Dfg9fISE-xk/",
-      "like_count": 5,
-      "comments_count": 1,
-      "metrics": {
-        "views": 136,
-        "reach": 66,
-        "total_interactions": 6,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "17999203083060855",
-      "caption": "朝5分で、顔まわりまでやわらかい。 バタフライレイヤー×デジパで、忙しい朝にも余裕を◎  軽く濡らしてオイルをなじませるだけで、デジパのカールとレイヤーの動きが自然に復活。 乾かすだけで形になりやすいパーマだから、毎朝コテで巻く時間を減らしたい方にもおすすめです。  前髪の透け感、顔まわりのやわらかな毛流れ、毛先の軽や",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-11-09T03:30:02+0000",
-      "permalink": "https://www.instagram.com/p/DfgXp7-k42U/",
-      "like_count": 2,
-      "comments_count": 1,
-      "metrics": {
-        "views": 118,
-        "reach": 80,
-        "total_interactions": 4,
-        "saved": 1,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18287132173295382",
-      "caption": "決めた。  #ある女性の物語  #あるある",
-      "media_type": "VIDEO",
-      "media_product_type": "REELS",
-      "timestamp": "2026-11-08T22:24:35+0000",
-      "permalink": "https://www.instagram.com/reel/Dff0lB1T0Ly/",
-      "like_count": 2,
-      "comments_count": 1,
-      "metrics": {
-        "views": 223,
-        "reach": 201,
-        "total_interactions": 3,
         "saved": 0,
         "shares": 0
       },

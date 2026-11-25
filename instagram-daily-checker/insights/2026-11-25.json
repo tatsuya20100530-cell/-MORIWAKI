@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-25",
+  "checked_at": "2026-11-25 12:46:56",
+  "account": "myojin_moriwaki",
+  "result": "success",
+  "media_error": null,
+  "media_count": 10,
+  "available_metrics": [
+    "reach",
+    "saved",
+    "shares",
+    "total_interactions",
+    "views"
+  ],
+  "media": [
+    {
+      "id": "18034362077685608",
+      "caption": "朝の準備に、ちょっと余裕ができる🌿 ハッシュカット×やわらかデジパ  「ロングヘアは好きだけど、毎朝のセットが大変」 「髪を下ろすと、なんだか重たく見える」 「巻かなくても、ふんわり動きがほしい」  そんな方におすすめなのが、 ハッシュカットにニュアンスパーマを合わせたスタイル✨  顔まわりから毛先にかけて入れたレイヤ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-24T08:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DgHedEsk3RG/",
+      "like_count": 3,
+      "comments_count": 1,
+      "metrics": {
+        "views": 82,
+        "reach": 33,
+        "total_interactions": 4,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18188060080425768",
+      "caption": "朝のスタイリングが、もっと楽しみに🌿 デジパでつくる、やわらかニュアンスロング。  「毎朝コテで巻く時間がない」 「ロングヘアに動きがほしい」 「頑張りすぎず、おしゃれに見せたい」  そんな方におすすめなのが、レイヤーカットとパーマの組み合わせ✨  顔まわりにやわらかな毛流れをつくり、毛先にはふんわりとした動きを。デジ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-24T03:00:02+0000",
+      "permalink": "https://www.instagram.com/p/DgG8OJlk51u/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 65,
+        "reach": 29,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18134050183866629",
+      "caption": "衣替えしましたか？  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-23T22:00:06+0000",
+      "permalink": "https://www.instagram.com/reel/DgGZya6zlsa/",
+      "like_count": 2,
+      "comments_count": 2,
+      "metrics": {
+        "views": 137,
+        "reach": 125,
+        "total_interactions": 4,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18157742236524815",
+      "caption": "朝の支度をラクにして、ふんわり軽やかな髪へ🌿 ハッシュカット×ニュアンスパーマ  「長さは残したいけど、いつも同じ髪型になる」 「顔まわりに動きがほしい」 「忙しい朝も、簡単に可愛く整えたい」  そんな方におすすめなのが、ハッシュカットとデジパの組み合わせ✨  顔まわりのレイヤーに、デジパでやわらかな動きをプラス。毛先",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-23T08:00:02+0000",
+      "permalink": "https://www.instagram.com/p/DgE5rtwk3Ql/",
+      "like_count": 4,
+      "comments_count": 1,
+      "metrics": {
+        "views": 53,
+        "reach": 29,
+        "total_interactions": 6,
+        "saved": 1,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "17953599423056769",
+      "caption": "朝5分で、ふんわり軽やか🌿 ハッシュカット×ニュアンスパーマ  「毎朝のスタイリングをラクにしたい」 「長さは残して、雰囲気を変えたい」  そんな方におすすめなのが、ハッシュカットとデジパの組み合わせ✨  顔まわりに入れたレイヤーと、デジパのやわらかな動きで、伸ばしかけの髪も軽やかな印象に。パーマの動きがあるから、ひと",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-23T03:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DgEXWb9k2SZ/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 85,
+        "reach": 33,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18161079568567486",
+      "caption": "#ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-22T22:32:48+0000",
+      "permalink": "https://www.instagram.com/reel/DgD4n6tT7JU/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 307,
+        "reach": 249,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18134789890813561",
+      "caption": "乾かして、オイルをなじませるだけ。 忙しい朝にも、ふんわりやわらかなボブ🌿  「ボブにしたいけど、朝のハネが心配」 「ぺたんとせず、自然な動きがほしい」  そんな方におすすめのニュアンスパーマです。  パーマやデジパで毛先にやわらかな動きをつけると、ボブに軽さと立体感が生まれます。顔まわりのカールは、耳にかけた日もやさ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-18T09:30:02+0000",
+      "permalink": "https://www.instagram.com/p/Df4MAawEeHf/",
+      "like_count": 3,
+      "comments_count": 1,
+      "metrics": {
+        "views": 119,
+        "reach": 94,
+        "total_interactions": 4,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18026354027718281",
+      "caption": "朝3分で、ふんわりやわらかなニュアンスボブ🌿  「ボブにしたいけど、朝のセットが大変そう」 「毛先のハネや、ぺたんこ髪が気になる」  そんな方におすすめなのが、ニュアンスパーマ✨  パーマやデジパで毛先にやわらかな動きをつけると、まとまりの中にも軽やかさが生まれます。顔まわりの毛流れが、横顔までやさしい印象に☺️  朝",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-18T06:30:16+0000",
+      "permalink": "https://www.instagram.com/p/Df33bZqkVxp/",
+      "like_count": 4,
+      "comments_count": 1,
+      "metrics": {
+        "views": 122,
+        "reach": 106,
+        "total_interactions": 6,
+        "saved": 1,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18110708618571261",
+      "caption": "朝のバタバタ。  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-18T00:14:53+0000",
+      "permalink": "https://www.instagram.com/reel/Df3MTLczGON/",
+      "like_count": 2,
+      "comments_count": 1,
+      "metrics": {
+        "views": 145,
+        "reach": 122,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
+      "id": "18473417212139057",
+      "caption": "ウィッグでのカットandパーマの施術風景です。  乾かすだけでも、ふんわり動く。 朝の支度がラクになるショートレイヤー🌿  「ショートにしたいけど、トップがぺたんとしそう」 「黒髪でも、やわらかい雰囲気を楽しみたい」  そんな方におすすめなのが、ショートレイヤー×ニュアンスパーマ。  カットでつくる軽さに、パーマのやわ",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-12T06:00:06+0000",
+      "permalink": "https://www.instagram.com/reel/DfoXLhlzsL_/",
+      "like_count": 3,
+      "comments_count": 0,
+      "metrics": {
+        "views": 235,
+        "reach": 169,
+        "total_interactions": 3,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    }
+  ]
+}

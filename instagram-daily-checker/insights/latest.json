@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "checked_at": "2026-11-24 14:01:06",
+  "date": "2026-11-25",
+  "checked_at": "2026-11-25 12:46:56",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,18 +14,36 @@
   ],
   "media": [
     {
+      "id": "18034362077685608",
+      "caption": "朝の準備に、ちょっと余裕ができる🌿 ハッシュカット×やわらかデジパ  「ロングヘアは好きだけど、毎朝のセットが大変」 「髪を下ろすと、なんだか重たく見える」 「巻かなくても、ふんわり動きがほしい」  そんな方におすすめなのが、 ハッシュカットにニュアンスパーマを合わせたスタイル✨  顔まわりから毛先にかけて入れたレイヤ",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_product_type": "FEED",
+      "timestamp": "2026-11-24T08:00:01+0000",
+      "permalink": "https://www.instagram.com/p/DgHedEsk3RG/",
+      "like_count": 3,
+      "comments_count": 1,
+      "metrics": {
+        "views": 82,
+        "reach": 33,
+        "total_interactions": 4,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "18188060080425768",
       "caption": "朝のスタイリングが、もっと楽しみに🌿 デジパでつくる、やわらかニュアンスロング。  「毎朝コテで巻く時間がない」 「ロングヘアに動きがほしい」 「頑張りすぎず、おしゃれに見せたい」  そんな方におすすめなのが、レイヤーカットとパーマの組み合わせ✨  顔まわりにやわらかな毛流れをつくり、毛先にはふんわりとした動きを。デジ",
       "media_type": "CAROUSEL_ALBUM",
       "media_product_type": "FEED",
       "timestamp": "2026-11-24T03:00:02+0000",
       "permalink": "https://www.instagram.com/p/DgG8OJlk51u/",
-      "like_count": 0,
-      "comments_count": 0,
+      "like_count": 1,
+      "comments_count": 1,
       "metrics": {
-        "views": 15,
-        "reach": 6,
-        "total_interactions": 0,
+        "views": 65,
+        "reach": 29,
+        "total_interactions": 2,
         "saved": 0,
         "shares": 0
       },
@@ -41,8 +59,8 @@
       "like_count": 2,
       "comments_count": 2,
       "metrics": {
-        "views": 114,
-        "reach": 98,
+        "views": 137,
+        "reach": 125,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -56,12 +74,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-23T08:00:02+0000",
       "permalink": "https://www.instagram.com/p/DgE5rtwk3Ql/",
-      "like_count": 2,
+      "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 47,
-        "reach": 24,
-        "total_interactions": 4,
+        "views": 53,
+        "reach": 29,
+        "total_interactions": 6,
         "saved": 1,
         "shares": 0
       },
@@ -77,8 +95,8 @@
       "like_count": 1,
       "comments_count": 1,
       "metrics": {
-        "views": 77,
-        "reach": 30,
+        "views": 85,
+        "reach": 33,
         "total_interactions": 2,
         "saved": 0,
         "shares": 0
@@ -95,8 +113,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 304,
-        "reach": 246,
+        "views": 307,
+        "reach": 249,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -113,8 +131,8 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 117,
-        "reach": 92,
+        "views": 119,
+        "reach": 94,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -131,8 +149,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 117,
-        "reach": 98,
+        "views": 122,
+        "reach": 106,
         "total_interactions": 6,
         "saved": 1,
         "shares": 0
@@ -170,24 +188,6 @@
         "views": 235,
         "reach": 169,
         "total_interactions": 3,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18201155944388152",
-      "caption": "朝3分で、ふんわりやわらかいショートに🌿  「ショートにしたいけど、朝のセットが大変そう」 「黒髪でも、やさしい雰囲気にしたい」  そんな方におすすめの、ナチュラルなショートパーマです。  パーマやデジパで毛先にやわらかな動きをつけると、黒髪にも軽やかさが生まれます。顔まわりはふんわり、えり足はすっきり。横顔まで自然な",
-      "media_type": "CAROUSEL_ALBUM",
-      "media_product_type": "FEED",
-      "timestamp": "2026-11-12T03:00:01+0000",
-      "permalink": "https://www.instagram.com/p/DfoClkdE5iD/",
-      "like_count": 5,
-      "comments_count": 1,
-      "metrics": {
-        "views": 203,
-        "reach": 114,
-        "total_interactions": 6,
         "saved": 0,
         "shares": 0
       },

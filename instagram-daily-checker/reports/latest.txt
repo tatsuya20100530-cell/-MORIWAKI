@@ -1,5 +1,5 @@
 MORIWAKI Instagram 日次チェック
-2026-11-26 12:09:30
+2026-11-26 12:33:56
 
 取得成功：12 / 20
 比較基準：2026-11-25
@@ -7,7 +7,7 @@ MORIWAKI Instagram 日次チェック
 店舗         スタッフ         Instagram                       投稿数        投稿前日比      フォロワー       フォロワー前日比
 交野店        kuroki       kuro_rina                         -         算出不可          -           算出不可 ⚪
 交野店        kurogi       oo_o___co_c                       -         算出不可          -           算出不可 ⚪
-宮之阪店       myojin       myojin_moriwaki                 489           +1        563             +0 🟢
+宮之阪店       myojin       myojin_moriwaki                 490           +2        563             +0 🟢
 宮之阪店       uga          serika_hair                      17           +0         95             +0 🔴
 宮之阪店       ueno         by.puiko                          -         算出不可          -           算出不可 ⚪
 宮之阪店       morimoto     kaz5_129                          -         算出不可          -           算出不可 ⚪

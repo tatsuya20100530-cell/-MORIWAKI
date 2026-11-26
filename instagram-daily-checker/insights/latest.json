@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "checked_at": "2026-11-25 12:46:56",
+  "date": "2026-11-26",
+  "checked_at": "2026-11-26 12:10:56",
   "account": "myojin_moriwaki",
   "result": "success",
   "media_error": null,
@@ -14,18 +14,36 @@
   ],
   "media": [
     {
+      "id": "18181582966448920",
+      "caption": "悩むよねー  #ある女性の物語  #あるある",
+      "media_type": "VIDEO",
+      "media_product_type": "REELS",
+      "timestamp": "2026-11-25T22:07:23+0000",
+      "permalink": "https://www.instagram.com/reel/DgLkIDbTOgC/",
+      "like_count": 1,
+      "comments_count": 1,
+      "metrics": {
+        "views": 49,
+        "reach": 37,
+        "total_interactions": 2,
+        "saved": 0,
+        "shares": 0
+      },
+      "unavailable_metrics": []
+    },
+    {
       "id": "18034362077685608",
       "caption": "朝の準備に、ちょっと余裕ができる🌿 ハッシュカット×やわらかデジパ  「ロングヘアは好きだけど、毎朝のセットが大変」 「髪を下ろすと、なんだか重たく見える」 「巻かなくても、ふんわり動きがほしい」  そんな方におすすめなのが、 ハッシュカットにニュアンスパーマを合わせたスタイル✨  顔まわりから毛先にかけて入れたレイヤ",
       "media_type": "CAROUSEL_ALBUM",
       "media_product_type": "FEED",
       "timestamp": "2026-11-24T08:00:01+0000",
       "permalink": "https://www.instagram.com/p/DgHedEsk3RG/",
-      "like_count": 3,
+      "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 82,
-        "reach": 33,
-        "total_interactions": 4,
+        "views": 104,
+        "reach": 50,
+        "total_interactions": 5,
         "saved": 0,
         "shares": 0
       },
@@ -38,12 +56,12 @@
       "media_product_type": "FEED",
       "timestamp": "2026-11-24T03:00:02+0000",
       "permalink": "https://www.instagram.com/p/DgG8OJlk51u/",
-      "like_count": 1,
+      "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 65,
-        "reach": 29,
-        "total_interactions": 2,
+        "views": 84,
+        "reach": 38,
+        "total_interactions": 5,
         "saved": 0,
         "shares": 0
       },
@@ -59,8 +77,8 @@
       "like_count": 2,
       "comments_count": 2,
       "metrics": {
-        "views": 137,
-        "reach": 125,
+        "views": 139,
+        "reach": 127,
         "total_interactions": 4,
         "saved": 0,
         "shares": 0
@@ -77,8 +95,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 53,
-        "reach": 29,
+        "views": 58,
+        "reach": 33,
         "total_interactions": 6,
         "saved": 1,
         "shares": 0
@@ -95,8 +113,8 @@
       "like_count": 1,
       "comments_count": 1,
       "metrics": {
-        "views": 85,
-        "reach": 33,
+        "views": 90,
+        "reach": 35,
         "total_interactions": 2,
         "saved": 0,
         "shares": 0
@@ -113,8 +131,8 @@
       "like_count": 2,
       "comments_count": 1,
       "metrics": {
-        "views": 307,
-        "reach": 249,
+        "views": 308,
+        "reach": 250,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
@@ -131,10 +149,10 @@
       "like_count": 3,
       "comments_count": 1,
       "metrics": {
-        "views": 119,
-        "reach": 94,
-        "total_interactions": 4,
-        "saved": 0,
+        "views": 126,
+        "reach": 98,
+        "total_interactions": 5,
+        "saved": 1,
         "shares": 0
       },
       "unavailable_metrics": []
@@ -149,8 +167,8 @@
       "like_count": 4,
       "comments_count": 1,
       "metrics": {
-        "views": 122,
-        "reach": 106,
+        "views": 130,
+        "reach": 113,
         "total_interactions": 6,
         "saved": 1,
         "shares": 0
@@ -168,25 +186,7 @@
       "comments_count": 1,
       "metrics": {
         "views": 145,
-        "reach": 122,
-        "total_interactions": 3,
-        "saved": 0,
-        "shares": 0
-      },
-      "unavailable_metrics": []
-    },
-    {
-      "id": "18473417212139057",
-      "caption": "ウィッグでのカットandパーマの施術風景です。  乾かすだけでも、ふんわり動く。 朝の支度がラクになるショートレイヤー🌿  「ショートにしたいけど、トップがぺたんとしそう」 「黒髪でも、やわらかい雰囲気を楽しみたい」  そんな方におすすめなのが、ショートレイヤー×ニュアンスパーマ。  カットでつくる軽さに、パーマのやわ",
-      "media_type": "VIDEO",
-      "media_product_type": "REELS",
-      "timestamp": "2026-11-12T06:00:06+0000",
-      "permalink": "https://www.instagram.com/reel/DfoXLhlzsL_/",
-      "like_count": 3,
-      "comments_count": 0,
-      "metrics": {
-        "views": 235,
-        "reach": 169,
+        "reach": 123,
         "total_interactions": 3,
         "saved": 0,
         "shares": 0
